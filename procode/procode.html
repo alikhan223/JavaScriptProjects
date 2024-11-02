@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Animation</title>
+    <link rel="stylesheet" href="/procode/procode.css">
+</head>
+<body>
+    
+    <div class="container">
+      <span>P</span>
+      <span>R</span>
+      <span>O</span>
+      <span>C</span>
+      <span>O</span>
+      <span>D</span>
+      <span>E</span>
+    </div>
+
+
+    <!-- Script tag start....... -->
+
+    <script>
+
+     const container = document.querySelectorAll("span")
+     container.forEach((item) => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('active')
+        })
+     });
+    </script>
+</body>
+</html>
